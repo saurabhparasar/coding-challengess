@@ -1,3 +1,5 @@
+// a tip calculatior
+
 const calcTip = function (billAmt) {
     if(billAmt <= 300 && billAmt >=50){
        return (15 / 100) * billAmt;
